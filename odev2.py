@@ -69,7 +69,7 @@ printStudentList()
 
 # Öğrencinin listedeki index numarası öğrenci numarası olarak kabul edildiğini düşünerek öğrencinin numarasını öğrenmeyi mümkün kılan
 def studentNo():
-  whichStudent=input("Please type the name and surname of the student: ")
+  whichStudent=input("Please enter the name and surname of the student whose number you want to see: ")
   print((studentList.index(whichStudent))+1)
 
 studentNo()
